@@ -1,0 +1,19 @@
+/*
+Theme Name: Adapt Child Theme
+Theme URI: http://brotenfamily.com/
+Description: Broten Family Blog
+Author: Ryan Karpeles
+Author URI: http://ryankarpeles.com/
+Template: adapt
+Version: 1.0
+*/
+
+@import url("../adapt/style.css");
+
+/* ========================================================== */
+   TABLE OF CONTENTS  
+   ========================================================== */ 
+
+
+#logo {
+  background: url('') }
