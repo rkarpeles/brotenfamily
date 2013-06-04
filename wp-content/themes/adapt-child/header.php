@@ -16,6 +16,9 @@ $options = get_option( 'adapt_theme_settings' );
 
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
+<!-- Google Web Font -->
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Playfair+Display+SC:400,700' rel='stylesheet' type='text/css'>
+
 <!-- Mobile Specific
 ================================================== -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -73,8 +76,13 @@ $options = get_option( 'adapt_theme_settings' );
                 
             </div>
             <!-- END logo -->
+			
+			<div class="verse">
+				Delight yourself in the LORD, and He<br> will give you the desires of your heart.<br>
+				<span class="reference">Psalm 37:4</span>
+			</div>
             
-            <nav id="masternav" class="clearfix">
+            <nav id="masternav" class="clear clearfix">
                 <?php wp_nav_menu( array(
                     'theme_location' => 'menu',
                     'sort_column' => 'menu_order',

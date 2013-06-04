@@ -10,10 +10,72 @@ Version: 1.0
 
 @import url("../adapt/style.css");
 
-/* ========================================================== */
+/*google font*/
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700|Playfair+Display+SC:400,700);
+
+/* ========================================================== 
    TABLE OF CONTENTS  
    ========================================================== */ 
 
+/*
+ * 1.0 - Base
+ * ?.0 - Theme
+ */
+
+/* ========================================================== 
+   1.0 - $Base 
+   ========================================================== */ 
+
+body {
+  font-size: 1.2em;
+  line-height: 1.4;
+	color: #444;
+  font-family: 'Rokkitt', Georgia, serif; }
+
+
+/* 1.1 - $Typography 
+   ========================================================== */ 
+
+h1 {
+  font-family: 'Playfair Display SC', 'Rokkitt', Georgia, serif; }
+
+
+
+/* ========================================================== 
+   ?.0 - $Theme 
+   ========================================================== */ 
+
+/* $Header
+   ========================================================== */ 
 
 #logo {
-  background: url('') }
+  background: url(''); }
+
+.verse {
+  text-align: right; }
+
+/**
+ * Menu
+ */
+
+#masternav {
+  position: relative;
+  margin-top: 10px;
+	padding-top: 15px;
+  border-top: 1px solid #d3d3d3;
+  font-size: 1.35em; }
+
+.sf-menu, .sf-menu li, .sf-menu a { 
+  float: none; }
+
+.sf-menu {
+  text-align: center; }
+
+.sf-menu li { 
+  display: inline;
+  padding: 0 10px; }
+
+.sf-menu a { 
+  display: inline-block;
+	text-transform: none;
+  color: #903131; }
