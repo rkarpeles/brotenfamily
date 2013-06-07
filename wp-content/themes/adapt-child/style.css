@@ -27,6 +27,11 @@ Version: 1.0
    1.0 - $Base 
    ========================================================== */ 
 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+   
 body {
   font-size: 1.25em;
   line-height: 1.3;
@@ -75,7 +80,7 @@ h1, h2, h3, h4 {
 #page-heading h1 {
   font-family: 'Playfair Display SC', 'Rokkitt', Georgia, serif; 
   font-size: 1.525em;  
-  color: #111;  }
+  color: #101010;  }
 
 .loop-entry h2 {
   font-size: 1.35em;
@@ -115,9 +120,6 @@ h1, h2, h3, h4 {
   height: 150px;
   width: 520px;
   max-width: 65%; }
-  
-/*#logo a {
-  display: none; } */
 
 .verse {
   padding-top: 37px;
@@ -148,8 +150,8 @@ h1, h2, h3, h4 {
 #masternav {
   position: relative;
   right: 0;
-  margin-top: 10px;
-  padding-top: 15px;
+  margin: 10px 0 11px;
+  padding-top: 12px;
   border-top: 1px solid #d3d3d3;
   font-size: 1.35em; }
 
@@ -167,6 +169,30 @@ h1, h2, h3, h4 {
   display: inline-block;
 	text-transform: none;
   color: #903131; }
+  
+/* 5.2 - $Slider 
+   ========================================================== */ 
+  
+.flexslider .slides img {
+	max-width: 100%;
+	display: block;
+	border: 3px solid #d5d5d5;
+    -webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+		    box-shadow: none; }
+
+.full-slides .caption {
+  background: rgba(134, 33, 33, .9);
+  width: 70%;
+  bottom: 10%;
+  left: 5%; }			
+  
+.caption h2 {
+  color: #fff;
+  margin: 0; }
+  
+.caption a {
+  color: #fff; }
 
 /**
  * Page
@@ -174,7 +200,8 @@ h1, h2, h3, h4 {
 
 #page-heading {
   padding: 20px 0;
-  border-top: 5px solid #444; }
+  border-top: 5px solid #444; 
+  border-bottom: 5px solid #444g; }
   
 .loop-entry {
   padding-bottom: 5px; }
