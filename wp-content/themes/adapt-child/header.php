@@ -17,7 +17,7 @@ $options = get_option( 'adapt_theme_settings' );
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
 <!-- Google Web Font -->
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Playfair+Display+SC:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Playfair+Display+SC:400,700|Open+Sans:300italic,400' rel='stylesheet' type='text/css'>
 
 <!-- Mobile Specific
 ================================================== -->
@@ -66,15 +66,10 @@ $options = get_option( 'adapt_theme_settings' );
 <div id="wrap" class="clearfix">
 
     <header id="masterhead" class="clearfix">
-            <div id="logo">
-                <?php
-                    if($options['upload_mainlogo'] !='') { ?>
-                        <a href="<?php bloginfo( 'url' ); ?>/" title="<?php bloginfo( 'name' ); ?>"><img src="<?php echo $options['upload_mainlogo']; ?>" alt="<?php bloginfo( 'name' ); ?>" /></a>
-                    <?php } else { ?>
-                    <a href="<?php bloginfo( 'url' ); ?>/" title="<?php bloginfo( 'name' ) ?>"><?php bloginfo( 'name' ); ?></a>
-                <?php } ?>
-                
-            </div>
+			
+			<a href="<?php bloginfo('url'); ?>">
+			<div id="logo"></div>
+			</a>
             <!-- END logo -->
 			
 			<div class="verse">

@@ -34,11 +34,17 @@ body {
   font-family: 'Rokkitt', Georgia, serif;
   background: url("../adapt-child/images/bg-desert.jpg") no-repeat top center fixed;
 	-webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../adapt-child/images/bg-desert.jpg', sizingMethod='scale');
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../adapt-child/images/bg-desert.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../adapt-child/images/bg-desert.jpg', sizingMethod='scale')";}
+  
+a {
+  color: #6595cb; }
+  
+a:hover {
+  color: #3c6ca2; }
 
 
 /* ========================================================== 
@@ -51,7 +57,6 @@ body {
   padding: 0 40px;
   opacity: 0.95;
   filter: alpha(opacity=95); /* For IE8 and earlier */ }
-
    
 #main {
   margin: 15px 0 25px; }
@@ -68,17 +73,19 @@ h1, h2, h3, h4 {
   font-weight: 700; }
 
 #page-heading h1 {
-  font-family: 'Playfair Display SC', 'Rokkitt', Georgia, serif; }
-
-#page-heading h1 {
-  font-size: 1.525em; }
+  font-family: 'Playfair Display SC', 'Rokkitt', Georgia, serif; 
+  font-size: 1.525em;  
+  color: #111;  }
 
 .loop-entry h2 {
   font-size: 1.35em;
   margin: -5px 0 5px; }
 
 .loop-entry a {
-  color: #47c0c0; }
+  color: #6595cb; }
+  
+.loop-entry a:hover {
+  color: #3c6ca2; }
 
 .single-title {
   font-size: 1.35em;
@@ -104,16 +111,34 @@ h1, h2, h3, h4 {
  */ 
 
 #logo {
-  background: url(''); }
+  background: url('images/logo-large.svg') no-repeat;
+  height: 150px;
+  width: 520px;
+  max-width: 65%; }
+  
+/*#logo a {
+  display: none; } */
 
 .verse {
-  text-align: right; }
+  padding-top: 37px;
+  text-align: right;
+  color: #999;
+  font-weight: 700;
+  line-height: 1.14; }
+  
+.reference {
+  position: relative;
+  top: 3px;
+  font-family: 'Open Sans', Arial, sans-serif; 
+  font-weight: 400;
+  font-style: italic; 
+  font-size: .725em; }
 
 #home-tagline { 
 	display: none; }
 
 #masterhead { 
-	padding: 30px 0 0;
+	padding: 35px 0 0;
 	border-bottom: none; }
 
 /**
@@ -122,8 +147,9 @@ h1, h2, h3, h4 {
 
 #masternav {
   position: relative;
+  right: 0;
   margin-top: 10px;
-	padding-top: 15px;
+  padding-top: 15px;
   border-top: 1px solid #d3d3d3;
   font-size: 1.35em; }
 
@@ -159,8 +185,8 @@ h1, h2, h3, h4 {
 
 #single-nav-left,
 #single-nav-right {
-	float: left;
-	margin: 15px 0 0 10px; }
+  float: left;
+  margin: 15px 0 0 10px; }
 	
 /**
  * Footer
