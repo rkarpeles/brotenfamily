@@ -59,7 +59,9 @@ a:hover {
 #wrap {
   background: url("../adapt-child/images/bg-brilliant.png") repeat;
   margin: 40px auto;
-  padding: 0 40px;
+  width: 80%;
+  max-width: 1060px;
+  padding: 0 50px;
   opacity: 0.95;
   filter: alpha(opacity=95); /* For IE8 and earlier */ }
    
@@ -150,7 +152,7 @@ h1, h2, h3, h4 {
 #masternav {
   position: relative;
   right: 0;
-  margin: 10px 0 11px;
+  margin: 10px 0;
   padding-top: 12px;
   border-top: 1px solid #d3d3d3;
   font-size: 1.35em; }
@@ -167,7 +169,9 @@ h1, h2, h3, h4 {
 
 .sf-menu a { 
   display: inline-block;
-	text-transform: none;
+  text-transform: none;
+  font-weight: 700;
+  font-size: .975em;
   color: #903131; }
   
 /* 5.2 - $Slider 
@@ -183,16 +187,21 @@ h1, h2, h3, h4 {
 
 .full-slides .caption {
   background: rgba(134, 33, 33, .9);
-  width: 70%;
-  bottom: 10%;
-  left: 5%; }			
-  
-.caption h2 {
-  color: #fff;
-  margin: 0; }
+  width: 55%;
+  bottom: 8%;
+  left: 4%;
+  text-align: left;
+  font-size: 1.025em;
+  line-height: 1.125;
+  opacity: 1;
+  font-weight: 400;
+  color: #fff; }	
   
 .caption a {
   color: #fff; }
+  
+.slides .caption p {
+  padding: 15px 20px; }
 
 /**
  * Page
@@ -220,5 +229,5 @@ h1, h2, h3, h4 {
  */
  
 #footer {
-  padding: 0 40px; /* Same as padding on #wrap */
-  margin: 0 -40px; }
+  padding: 0 50px; /* Same as padding on #wrap */
+  margin: 0 -50px; /* Same as left/right margins on #wrap */ }
