@@ -60,8 +60,8 @@ a:hover {
   background: url("../adapt-child/images/bg-brilliant.png") repeat;
   margin: 40px auto;
   width: 80%;
-  max-width: 1060px;
-  padding: 0 50px;
+  max-width: 1080px;
+  padding: 0 60px;
   opacity: 0.95;
   filter: alpha(opacity=95); /* For IE8 and earlier */ }
    
@@ -97,6 +97,33 @@ h1, h2, h3, h4 {
 .single-title {
   font-size: 1.35em;
   margin-bottom: 40px; }
+  
+.home-heading-bg {
+  position: relative;
+  background: #6595cb;
+  height: 43px;
+  width: 300px;  
+  left: -78px; }
+  
+h2.heading{
+  position: relative;
+  top: -43px;
+  font-weight: 400;
+  font-size: 27px;
+  text-align: left;
+  background: none;
+  margin: 0; }
+	
+h2.heading span{
+  font-family:'Playfair Display SC', 'Rokkitt', Georgia, serif; 
+  background: none;
+  padding: 0;
+  color: white; }
+
+.home-entry {
+  margin-top: -36px;
+  font-size: .9em;
+  line-height: 1.2; }
 
 .post-meta, .loop-entry-meta, .post-tags {
   font-size: .8em; }
@@ -229,5 +256,5 @@ h1, h2, h3, h4 {
  */
  
 #footer {
-  padding: 0 50px; /* Same as padding on #wrap */
-  margin: 0 -50px; /* Same as left/right margins on #wrap */ }
+  padding: 0 60px; /* Same as padding on #wrap */
+  margin: 0 -60px; /* Same as left/right margins on #wrap */ }
