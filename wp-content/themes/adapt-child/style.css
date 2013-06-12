@@ -34,8 +34,8 @@ Version: 1.0
    
 body {
   font-size: 1.25em;
-  line-height: 1.3;
-  color: #333;
+  line-height: 1.275;
+  color: #3a3a3a;
   font-family: 'Rokkitt', Georgia, serif; }
   
 #background {
@@ -131,9 +131,20 @@ h2.heading span{
   color: white; }
 
 .home-entry {
-  margin-top: -36px;
+  margin-top: -15px;
+  width: 31%;
+  margin-right: 3.5%;
   font-size: .9em;
   line-height: 1.2; }
+  
+.home-entry a {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #962020; }
+
+.home-date {
+  font-size: 1em;
+  color: #777; }
 
 .post-meta, .loop-entry-meta, .post-tags {
   font-size: .8em; }
@@ -239,18 +250,30 @@ h2.heading span{
   
 .slides .caption p {
   padding: 15px 20px; }
+  
+/**
+ * Homepage
+ */
+ 
+#home-posts img {
+  border: 3px solid #d5d5d5; 
+  margin-bottom: -2px; }
 
 /**
  * Page
- */
-
+ */ 
+  
 #page-heading {
   padding: 20px 0;
   border-top: 5px solid #444; 
-  border-bottom: 5px solid #444g; }
+  border-bottom: 5px solid #444; }
   
 .loop-entry {
   padding-bottom: 5px; }
+  
+.loop-entry img {
+  border: 3px solid #d5d5d5; 
+  margin-top: 5px; }
 
 /**
  * In-page blog navigation
