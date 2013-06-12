@@ -35,15 +35,25 @@ Version: 1.0
 body {
   font-size: 1.25em;
   line-height: 1.3;
-  color: #444;
-  font-family: 'Rokkitt', Georgia, serif;
-  background: url("../adapt-child/images/bg-desert.jpg") no-repeat top center fixed;
-	-webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../adapt-child/images/bg-desert.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../adapt-child/images/bg-desert.jpg', sizingMethod='scale')";}
+  color: #333;
+  font-family: 'Rokkitt', Georgia, serif; }
+  
+#background {
+  position: fixed; 
+  top: -25%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%; }
+  
+#background img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%; }
   
 a {
   color: #6595cb; }
@@ -62,8 +72,8 @@ a:hover {
   width: 80%;
   max-width: 1080px;
   padding: 0 60px;
-  opacity: 0.95;
-  filter: alpha(opacity=95); /* For IE8 and earlier */ }
+  opacity: 0.96;
+  filter: alpha(opacity=96); /* For IE8 and earlier */ }
    
 #main {
   margin: 15px 0 25px; }

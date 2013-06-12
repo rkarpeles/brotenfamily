@@ -63,6 +63,12 @@ $options = get_option( 'adapt_theme_settings' );
 </head>
 <body <?php body_class(); ?>>
 
+<!--Full page background image style comes from here: 
+http://css-tricks.com/perfect-full-page-background-image/-->
+<div id="background">
+	<img src="http://localhost/brotenfamily/wp-content/themes/adapt-child/images/bg-desert.jpg">
+</div>
+
 <div id="wrap" class="clearfix">
 
     <header id="masterhead" class="clearfix">
