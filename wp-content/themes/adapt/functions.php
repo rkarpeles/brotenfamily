@@ -33,7 +33,9 @@ if (function_exists( 'add_theme_support')) {
 		add_image_size( 'slider',  980, 9999, false );
 		add_image_size( 'portfolio-single',  550, 9999, false );
 		add_image_size( 'small-thumb',  50, 50, true );
-		add_image_size( 'grid-thumb',  300, 144, true );
+		add_image_size( 'grid-thumb',  230, 144, true );
+		add_image_size( 'home-feature',  300, 144, true );
+		add_image_size( 'blog-feature',  280, 180, true );
 	}
 }
 
@@ -281,7 +283,7 @@ add_theme_support( 'automatic-feed-links' );
 // Limit Post Word Count
 add_filter('excerpt_length', 'new_excerpt_length');
 function new_excerpt_length($length) {
-	return 40;
+	return 26;
 }
 
 //Replace Excerpt Link

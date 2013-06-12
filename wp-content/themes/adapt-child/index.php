@@ -49,7 +49,7 @@ $options = get_option( 'adapt_theme_settings' );
                 <?php } ?>
                 <div class="home-entry-description">
                     <h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php echo the_title(); ?></a></h3>
-                    <div class="home-date"><?php the_date(); ?></div>
+                    <div class="home-date"><?php the_time('M'); ?> <?php the_time('j'); ?>, <?php the_time('Y'); ?></div>
                 </div> 
                 <!-- /home-entry-description -->
             </article>

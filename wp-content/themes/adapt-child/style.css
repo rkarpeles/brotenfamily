@@ -40,17 +40,17 @@ body {
   
 #background {
   position: fixed; 
-  top: -25%; 
+  top: -50%; 
   left: -50%; 
   width: 200%; 
   height: 200%; }
   
 #background img {
   position: absolute; 
-  top: 0; 
+  top: 0;
   left: 0; 
   right: 0; 
-  bottom: 0; 
+  bottom: 0;
   margin: auto; 
   min-width: 50%;
   min-height: 50%; }
@@ -96,6 +96,7 @@ h1, h2, h3, h4 {
 
 .loop-entry h2 {
   font-size: 1.35em;
+  line-height: 1.1;
   margin: -5px 0 5px; }
 
 .loop-entry a {
@@ -222,8 +223,9 @@ h2.heading span{
   font-size: .975em;
   color: #903131; }
   
-/* 5.2 - $Slider 
-   ========================================================== */ 
+/**
+ * Slider
+ */
   
 .flexslider .slides img {
 	max-width: 100%;
@@ -258,6 +260,14 @@ h2.heading span{
 #home-posts img {
   border: 3px solid #d5d5d5; 
   margin-bottom: -2px; }
+  
+/**
+ * Blog
+ */
+ 
+.loop-entry-thumbnail {
+  display: block;
+  max-width: 230px; }
 
 /**
  * Page
@@ -272,8 +282,7 @@ h2.heading span{
   padding-bottom: 5px; }
   
 .loop-entry img {
-  border: 3px solid #d5d5d5; 
-  margin-top: 5px; }
+  border: 3px solid #d5d5d5; }
 
 /**
  * In-page blog navigation
