@@ -31,7 +31,7 @@ $options = get_option( 'adapt_theme_settings' );
         $blog_posts = get_posts($args);
     ?>
     <?php if($blog_posts) { ?>        
-        <section id="home-posts" class="clearfix">
+        <div id="home-posts" class="clearfix">
 		    <div class="home-heading-bg"></div>
 			<div class="view-posts"><a href="blog">View all &raquo;</a></div>
 			<h2 class="heading"><span><?php if(!empty($options['recent_work_text'])) { echo $options['recent_news_text']; } else { _e('Recent Posts','adapt'); }?></span></h2>			
@@ -44,7 +44,7 @@ $options = get_option( 'adapt_theme_settings' );
             ?>
             
             
-            <article class="home-entry <?php if($count == '3') { echo 'remove-margin'; } if($count == '3') { echo ' responsive-clear'; } ?>">
+            <div class="home-entry <?php if($count == '3') { echo 'remove-margin'; } if($count == '3') { echo ' responsive-clear'; } ?>">
             	<?php if ($feat_img) {  ?>
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php echo $feat_img[0]; ?>" height="<?php echo $feat_img[2]; ?>" width="<?php echo $feat_img[1]; ?>" alt="<?php echo the_title(); ?>" /></a>
                 <?php } ?>
@@ -53,20 +53,30 @@ $options = get_option( 'adapt_theme_settings' );
                     <div class="home-date"><?php the_time('M'); ?> <?php the_time('j'); ?>, <?php the_time('Y'); ?></div>
                 </div> 
                 <!-- /home-entry-description -->
-            </article>
+            </div>
             <!-- /home-entry-->
             <?php
             if($count == '3') { echo '<div class="clear"></div>'; $count=0; }
             endforeach; ?>
-        </section>
+        </div>
         <!-- /home-posts -->      	
     <?php } ?>
+	
+		<hr>
 		
 		<div class="site-stats">
-			<div class="home-heading-bg"></div>
+			<div class="home-heading-bg-2"></div>
 			<h2 class="heading"><span>Site Stats</span></h2>
-			
-			
+			<div class="site-stats-container">			
+				<p>Some stats go here.</p>
+			</div>			
+		</div>
+		
+		<div class="book-list">			
+			<h2 class="alt-heading alt-font">What We&rsquo;re Reading</h2>
+			<div class="book-list-content">
+				<p>Some text will go here and so on and so forth and on and on it goes and round it round until no one knows.</p>
+			</div>
 		</div>
 		
 
