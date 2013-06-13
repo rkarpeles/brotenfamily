@@ -33,6 +33,7 @@ $options = get_option( 'adapt_theme_settings' );
     <?php if($blog_posts) { ?>        
         <section id="home-posts" class="clearfix">
 		    <div class="home-heading-bg"></div>
+			<div class="view-posts"><a href="blog">View all &raquo;</a></div>
 			<h2 class="heading"><span><?php if(!empty($options['recent_work_text'])) { echo $options['recent_news_text']; } else { _e('Recent Posts','adapt'); }?></span></h2>			
             <?php
             $count=0;
@@ -60,6 +61,14 @@ $options = get_option( 'adapt_theme_settings' );
         </section>
         <!-- /home-posts -->      	
     <?php } ?>
+		
+		<div class="site-stats">
+			<div class="home-heading-bg"></div>
+			<h2 class="heading"><span>Site Stats</span></h2>
+			
+			
+		</div>
+		
 
 </div>
 <!-- END home-wrap -->   

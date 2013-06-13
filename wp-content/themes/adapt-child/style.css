@@ -261,6 +261,23 @@ h2.heading span{
   border: 3px solid #d5d5d5; 
   margin-bottom: -2px; }
   
+.view-posts {
+  float: right;
+  position: relative;
+  z-index: 20;
+  top: -22px;
+  font-weight: 700; 
+  font-size: .9em; }
+  
+.view-posts a {
+  cursor: pointer;
+  color: #962020; }
+  
+.site-stats {
+  border-top: 1px solid #d3d3d3; 
+  margin-top: 5px;
+  padding-top: 30px; }
+  
 /**
  * Blog
  */
