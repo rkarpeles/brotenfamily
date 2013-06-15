@@ -317,9 +317,44 @@ h2.heading span{
   margin-right: 0; }
   
 .book-list-content {
-  border-left: 1px solid #d3d3d3;
-  padding-left: 15px; }
+  border-left: 4px double #d3d3d3;
+  padding-left: 20px; }
+  
+.book-info {
+  display: block; }
+  
+#home-highlights {
+  margin-right: 0; }
+  
+.hp-highlight {
+  width: 100%;
+  margin-right: 0; }
+  
+.hp-highlight img {
+  float: left;
+  margin-right: 15px; }
+  
+.hp-highlight h2 {
+  font-size: .9em;
+  line-height: 1.15;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0; }
+	
+.hp-highlight h2 span {
+  margin-right: 0; }
+  
+.hp-highlight a {
+  color: #962020; }
 
+.book-author {
+  display: inline-block;
+  font-size: .8em;
+  color: #777;  }
+  
+.author-byline {
+  font-size: .8em;
+  color: #777; }
   
 /**
  * Blog

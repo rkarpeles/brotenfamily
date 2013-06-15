@@ -40,7 +40,7 @@ $options = get_option( 'adapt_theme_settings' );
             foreach($blog_posts as $post) : setup_postdata($post);
             $count++;
             //get portfolio thumbnail
-            $feat_img = wp_get_attachment_image_src(get_post_thumbnail_id(), 300, 144);
+            $feat_img = wp_get_attachment_image_src(get_post_thumbnail_id(), 'home-feature');
             ?>
             
             
@@ -75,8 +75,59 @@ $options = get_option( 'adapt_theme_settings' );
 		<div class="book-list">			
 			<h2 class="alt-heading alt-font">What We&rsquo;re Reading</h2>
 			<div class="book-list-content">
-				<p>Some text will go here and so on and so forth and on and on it goes and round it round until no one knows.</p>
-			</div>
+				<!-- Homepage Highlights (Books) -->
+				<?php
+				//get post type ==> hp highlights (Books)
+					global $post;
+					$args = array(
+						'post_type' =>'hp_highlights',
+						'numberposts' => '-1'
+					);
+					$highlight_posts = get_posts($args);
+				?>
+				<?php if($highlight_posts) { ?>        
+				
+				
+				<section id="home-highlights" class="clearfix">
+					<?php
+					$count=0;
+					foreach($highlight_posts as $post) : setup_postdata($post);
+					$count++;
+					//get img
+					$feat_img = wp_get_attachment_image_src( get_post_thumbnail_id(), 'bookshelf');
+					//meta
+					$highlights_url = get_post_meta($post->ID, 'adapt_highlights_url', TRUE);
+					?>
+					
+					<article class="hp-highlight <?php if($count == '4') { echo 'remove-margin'; } if($count == '3') { echo ' responsive-clear'; } ?>">
+						<h2>
+						<?php if($feat_img) { ?><span><img src="<?php echo $feat_img[0]; ?>" alt="<?php the_title(); ?>" /></span><?php } ?>
+						
+						<span class="book-info">
+							<?php if($highlights_url) { ?>
+								<a href="<?php echo $highlights_url; ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+							<?php } else { the_title(); } ?>
+							</h2>
+							
+							<span class="author-byline">by</span> <div class="book-author"><?php the_excerpt(); ?></div>
+						</span>
+						
+					</article>
+					<!-- /hp-highlight -->
+					
+					<?php
+					if($count == '4') { echo '<div class="clear"></div>'; $count=0; }
+					endforeach; ?>
+				</section>
+				<!-- /home-projects -->      	
+				<?php } ?>
+				</div>
+			
+			
+			
+			
+			
+			
 		</div>
 		
 

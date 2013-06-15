@@ -36,6 +36,7 @@ if (function_exists( 'add_theme_support')) {
 		add_image_size( 'grid-thumb',  230, 144, true );
 		add_image_size( 'home-feature',  300, 144, true );
 		add_image_size( 'blog-feature',  280, 180, true );
+		add_image_size( 'bookshelf',  70, 95, true );
 	}
 }
 
@@ -154,7 +155,7 @@ function adapt_create_post_types() {
 	register_post_type( 'Slides',
 		array(
 		  'labels' => array(
-			'name' => __( 'HP Slides', '' ),
+			'name' => __( 'Slides', '' ),
 			'singular_name' => __( 'Slide', '' ),		
 			'add_new' => _x( 'Add New', 'Slide', '' ),
 			'add_new_item' => __( 'Add New Slide', '' ),
@@ -174,29 +175,32 @@ function adapt_create_post_types() {
 		)
 	  );
 	  
+	  
 	//hp highlights
 	register_post_type( 'hp_highlights',
 		array(
 		  'labels' => array(
-			'name' => __( 'HP Highlights', '' ),
-			'singular_name' => __( 'Highlight', '' ),		
-			'add_new' => _x( 'Add New', 'Highlight', '' ),
-			'add_new_item' => __( 'Add New Highlight', '' ),
-			'edit_item' => __( 'Edit Highlight', '' ),
-			'new_item' => __( 'New Highlight', '' ),
-			'view_item' => __( 'View Highlight', '' ),
-			'search_items' => __( 'Search Highlights', '' ),
-			'not_found' =>  __( 'No Highlights found', '' ),
-			'not_found_in_trash' => __( 'No Highlights found in Trash', '' ),
+			'name' => __( 'Books', '' ),
+			'singular_name' => __( 'Book', '' ),		
+			'add_new' => _x( 'Add New', 'Book', '' ),
+			'add_new_item' => __( 'Add New Book', '' ),
+			'edit_item' => __( 'Edit Book', '' ),
+			'new_item' => __( 'New Book', '' ),
+			'view_item' => __( 'View Book', '' ),
+			'search_items' => __( 'Search Books', '' ),
+			'not_found' =>  __( 'No Books found', '' ),
+			'not_found_in_trash' => __( 'No Books found in Trash', '' ),
 			'parent_item_colon' => ''
 			
 		  ),
 		  'public' => true,
-		  'supports' => array('title','editor','excerpt','thumbnail'),
+		  'supports' => array('title','excerpt','thumbnail'),
 		  'query_var' => true,
 		  'rewrite' => array( 'slug' => 'hp-highlights' ),
 		)
 	  );
+	  
+	/*
 
 	//portfolio post type
 	register_post_type( 'Portfolio',
@@ -221,6 +225,8 @@ function adapt_create_post_types() {
 		  'rewrite' => array( 'slug' => 'portfolio' ),
 		)
 	  );
+	  
+	  */
 }
 
 
