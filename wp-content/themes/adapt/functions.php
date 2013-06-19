@@ -177,6 +177,7 @@ function adapt_create_post_types() {
 	  
 	  
 	//hp highlights
+	/*
 	register_post_type( 'hp_highlights',
 		array(
 		  'labels' => array(
@@ -200,20 +201,22 @@ function adapt_create_post_types() {
 		)
 	  );
 	  
+	 */
+	  
 	//portfolio post type
 	register_post_type( 'Portfolio',
 		array(
 		  'labels' => array(
-			'name' => __( 'Portfolio', '' ),
-			'singular_name' => __( 'Portfolio', '' ),		
-			'add_new' => _x( 'Add New', 'Portfolio Project', '' ),
-			'add_new_item' => __( 'Add New Portfolio Project', '' ),
-			'edit_item' => __( 'Edit Portfolio Project', '' ),
-			'new_item' => __( 'New Portfolio Project', '' ),
-			'view_item' => __( 'View Portfolio Project', '' ),
-			'search_items' => __( 'Search Portfolio Projects', '' ),
-			'not_found' =>  __( 'No Portfolio Projects found', '' ),
-			'not_found_in_trash' => __( 'No Portfolio Projects found in Trash', '' ),
+			'name' => __( 'Books', '' ),
+			'singular_name' => __( 'Book', '' ),		
+			'add_new' => _x( 'Add New', 'Book', '' ),
+			'add_new_item' => __( 'Add New Book', '' ),
+			'edit_item' => __( 'Edit Book', '' ),
+			'new_item' => __( 'New Book', '' ),
+			'view_item' => __( 'View Book', '' ),
+			'search_items' => __( 'Search Books', '' ),
+			'not_found' =>  __( 'No Books found', '' ),
+			'not_found_in_trash' => __( 'No Books found in Trash', '' ),
 			'parent_item_colon' => ''
 			
 		  ),
