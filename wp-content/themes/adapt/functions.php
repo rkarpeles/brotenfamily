@@ -36,7 +36,7 @@ if (function_exists( 'add_theme_support')) {
 		add_image_size( 'grid-thumb',  230, 144, true );
 		add_image_size( 'home-feature',  300, 144, true );
 		add_image_size( 'blog-feature',  280, 180, true );
-		add_image_size( 'bookshelf',  70, 95, true );
+		add_image_size( 'bookshelf',  65, 90, true );
 	}
 }
 
@@ -235,17 +235,17 @@ function adapt_create_taxonomies() {
 	
 // portfolio taxonomies
 	$cat_labels = array(
-		'name' => __( 'Portfolio Categories', '' ),
-		'singular_name' => __( 'Portfolio Category', '' ),
-		'search_items' =>  __( 'Search Portfolio Categories', '' ),
-		'all_items' => __( 'All Portfolio Categories', '' ),
-		'parent_item' => __( 'Parent Portfolio Category', '' ),
-		'parent_item_colon' => __( 'Parent Portfolio Category:', '' ),
-		'edit_item' => __( 'Edit Portfolio Category', '' ),
-		'update_item' => __( 'Update Portfolio Category', '' ),
-		'add_new_item' => __( 'Add New Portfolio Category', '' ),
-		'new_item_name' => __( 'New Portfolio Category Name', '' ),
-		'choose_from_most_used'	=> __( 'Choose from the most used portfolio categories', '' )
+		'name' => __( 'Bookshelf Categories', '' ),
+		'singular_name' => __( 'Bookshelf Category', '' ),
+		'search_items' =>  __( 'Search Bookshelf Categories', '' ),
+		'all_items' => __( 'All Bookshelf Categories', '' ),
+		'parent_item' => __( 'Parent Bookshelf Category', '' ),
+		'parent_item_colon' => __( 'Parent Bookshelf Category:', '' ),
+		'edit_item' => __( 'Edit Bookshelf Category', '' ),
+		'update_item' => __( 'Update Bookshelf Category', '' ),
+		'add_new_item' => __( 'Add New Bookshelf Category', '' ),
+		'new_item_name' => __( 'New Bookshelf Category Name', '' ),
+		'choose_from_most_used'	=> __( 'Choose from the most used Bookshelf categories', '' )
 	); 	
 
 	register_taxonomy('portfolio_cats','portfolio',array(
