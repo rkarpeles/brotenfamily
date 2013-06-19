@@ -200,8 +200,6 @@ function adapt_create_post_types() {
 		)
 	  );
 	  
-	/*
-
 	//portfolio post type
 	register_post_type( 'Portfolio',
 		array(
@@ -220,13 +218,11 @@ function adapt_create_post_types() {
 			
 		  ),
 		  'public' => true,
-		  'supports' => array('title','editor','thumbnail'),
+		  'supports' => array('title','editor','excerpt','thumbnail'),
 		  'query_var' => true,
 		  'rewrite' => array( 'slug' => 'portfolio' ),
 		)
 	  );
-	  
-	  */
 }
 
 
