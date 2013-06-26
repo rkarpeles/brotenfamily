@@ -18,7 +18,8 @@ $options = get_option( 'adapt_theme_settings' );
     <?php } ?>
     
     <!-- /Homepage Slider -->
-    <?php get_template_part( 'includes/slides' ); ?>     
+    <?php get_template_part( 'includes/slides' ); ?> 
+
     
     <!-- Recent Blog Posts -->
     <?php
@@ -72,7 +73,7 @@ $options = get_option( 'adapt_theme_settings' );
 		</div>			
 	</div>
 	
-		
+			
 	<!--Book List-->		
 	<div class="book-list">			
 		<h2 class="alt-heading alt-font">What We&rsquo;re Reading</h2>

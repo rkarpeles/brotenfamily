@@ -35,7 +35,7 @@ if (function_exists( 'add_theme_support')) {
 		add_image_size( 'small-thumb',  50, 50, true );
 		add_image_size( 'grid-thumb',  230, 144, true );
 		add_image_size( 'home-feature',  300, 144, true );
-		add_image_size( 'blog-feature',  280, 180, true );
+		add_image_size( 'blog-feature',  280, 160, true );
 		add_image_size( 'bookshelf',  65, 90, true );
 	}
 }
