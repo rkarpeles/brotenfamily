@@ -7,7 +7,7 @@
 <?php get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
+<?php wpb_set_post_views(get_the_ID()); ?>
 
 <header id="page-heading">
 	<h1><?php _e('Blog',''); ?></h1>	
@@ -29,7 +29,6 @@
         </div>
         <!-- /loop-entry-meta -->
     </header>
-
 
     <div class="entry clearfix">
         <?php
