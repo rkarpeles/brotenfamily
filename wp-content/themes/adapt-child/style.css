@@ -317,12 +317,14 @@ h2.heading span{
   
 .book-list {
   float: left;
-  width: 31%; 
+  width: 31%;
+  margin-top: 30px;  
   margin-right: 0; }
   
 .book-list-content {
   border-left: 1px solid #d3d3d3;
-  padding-left: 20px; }
+  padding-left: 20px; 
+  padding-top: 5px; }
   
 .book-info {
   display: block; }
@@ -338,6 +340,9 @@ h2.heading span{
   float: left;
   margin-right: 15px; }
   
+.portfolio-item a {
+  color: #962020; }
+  
 .book-title {
   font-size: .9em;
   line-height: 1.1;
@@ -345,9 +350,6 @@ h2.heading span{
   text-transform: none;
   margin-top: 0;
   margin-bottom: 0; }
-  
-.portfolio-item a {
-  color: #962020; }
 
 .book-author {
   display: inline-block;
