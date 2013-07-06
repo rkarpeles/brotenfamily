@@ -40,6 +40,7 @@ body {
   
 #background {
   position: fixed; 
+  z-index: -1000;
   top: -50%; 
   left: -50%; 
   width: 200%; 
@@ -75,7 +76,7 @@ hr {
    ========================================================== */ 
 
 #wrap {
-  background: url("../adapt-child/images/bg-brilliant.png") repeat;
+  background: url('images/bg-brilliant.png') repeat;
   margin: 40px auto;
   width: 80%;
   max-width: 1080px;
@@ -197,6 +198,10 @@ h2.heading span{
   height: 150px;
   width: 520px;
   max-width: 65%; }
+
+/* Fallback image for browsers without SVG support */
+.no-svg #logo {
+  background: url('images/logo-large.png') no-repeat; }
 
 .verse {
   padding-top: 37px;

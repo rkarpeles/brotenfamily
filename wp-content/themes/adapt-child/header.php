@@ -43,7 +43,6 @@ $options = get_option( 'adapt_theme_settings' );
 ================================================== -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 
-
 <!-- Load HTML5 dependancies for IE
 ================================================== -->
 <!--[if IE]>
@@ -54,6 +53,9 @@ $options = get_option( 'adapt_theme_settings' );
 	<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/>
 <![endif]-->
 
+<!-- Modernizr for PNG fallback on browsers that don't support SVG 
+================================================== -->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.custom.min.js"></script>
 
 <!-- WP Head
 ================================================== -->
@@ -66,7 +68,7 @@ $options = get_option( 'adapt_theme_settings' );
 <!--Full page background image style comes from here: 
 http://css-tricks.com/perfect-full-page-background-image/-->
 <div id="background">
-	<img src="http://localhost/brotenfamily/wp-content/themes/adapt-child/images/bg-desert.jpg">
+	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/bg-desert.jpg">
 </div>
 
 <div id="wrap" class="clearfix">
