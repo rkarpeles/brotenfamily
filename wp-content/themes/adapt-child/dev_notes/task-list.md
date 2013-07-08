@@ -7,13 +7,15 @@
 - style individual bookshelf pages
 - style main Bookshelf page 
 
-- add link/text in footer to point people to Subscribe page
-- set up Subscribe functionality on Subscribe page
-- add ability to subscribe to weekly updates from the Subscribe page
+- add link/text in footer to point people to Subscribe page (DONE)
+- set up Subscribe functionality on Subscribe page - weekly updates and blog posts (need access to their Mailchimp account for this)
 
 - place Embedded Analytics on homepage
 - place visitor count on the homapage (near Embedded Analytics)
-- add search bar in header on homepage
+
+- Add Google Analytics tracking to their site
+
+- add search bar in header on homepage (?)
 
 - Responsive design styles
 	- menu

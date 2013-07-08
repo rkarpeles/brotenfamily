@@ -337,15 +337,15 @@ h2.heading span{
 #home-projects {
   margin-right: 0; }
   
-.portfolio-item {
+#home-projects .portfolio-item {
   width: 100%;
   margin-right: 0; }
   
-.portfolio-item img {
+#home-projects .portfolio-item img {
   float: left;
   margin-right: 15px; }
   
-.portfolio-item a {
+#home-projects .portfolio-item a {
   color: #962020; }
   
 .book-title {
@@ -372,6 +372,12 @@ h2.heading span{
 .loop-entry-thumbnail {
   display: block;
   max-width: 230px; }
+  
+/**
+ * Bookshelf Page
+ */
+ 
+
 
 /**
  * Page
