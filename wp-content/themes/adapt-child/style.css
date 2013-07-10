@@ -347,6 +347,9 @@ h2.heading span{
 #home-projects .portfolio-item a {
   color: #962020; }
   
+#home-projects .portfolio-item a:hover {
+  color: #999; }
+  
 .book-title {
   font-size: .9em;
   line-height: 1.1;
