@@ -57,6 +57,11 @@ $options = get_option( 'adapt_theme_settings' );
 ================================================== -->
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.custom.min.js"></script>
 
+<!-- jQuery Cookie plugin
+================================================== -->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.cookie.js"></script>
+
+
 <!-- WP Head
 ================================================== -->
 <?php if ( is_single() || is_page() ) wp_enqueue_script( 'comment-reply' ); ?>

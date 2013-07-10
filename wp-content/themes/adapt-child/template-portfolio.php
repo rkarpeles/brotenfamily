@@ -6,6 +6,21 @@
  */
 ?>
 
+<?php
+
+if (is_page('bookshelf')) {
+   $homelink = '#';
+   echo '<ul id="filter">';
+} else {
+   $homelink =  get_bloginfo('url').'/';
+   echo '<ul id="cookiefilter">';
+}
+
+?>
+
+
+
+
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
