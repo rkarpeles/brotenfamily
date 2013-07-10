@@ -6,17 +6,26 @@
  */
 ?>
 
-<?php
+<script>
+	// filter items when filter link is clicked
+		$('.filter a').click(function(){
+			var selector = $(this).attr('data-filter');
+			$container.isotope({ filter: selector });
+			return false;
+		});
 
-if (is_page('bookshelf')) {
-   $homelink = '#';
-   echo '<ul id="filter">';
-} else {
-   $homelink =  get_bloginfo('url').'/';
-   echo '<ul id="cookiefilter">';
-}
-
-?>
+		// Set cookie based on filter selector
+		$('.cookiefilter a').click(function(){
+			var selector = $(this).attr('data-filter');
+			$.cookie("listfilter", selector, { path: '/' });
+		});
+		
+		if ( $.cookie("listfilter") ) {
+			$container.isotope({ filter: $.cookie("listfilter") });
+			$.cookie("listfilter", null, { path: '/' });
+			return false;
+		}
+</script>
 
 
 
