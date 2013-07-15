@@ -480,8 +480,19 @@ ul.filter.footer-filter a.active{
  * Miscellaneous 
  */
  
+.wp-caption{
+  border: none; 
+  text-align: center; 
+  background-color: none; 
+  padding-top: 4px; 
+  margin: 10px; 
+  -moz-border-radius: none; 
+  -khtml-border-radius: none; 
+  -webkit-border-radius: none; 
+  border-radius: none; }
+ 
 img.aligncenter {
-  margin: 10px auto; }
+  margin: 20px auto; }
   
 /* ========================================================== 
    6.0 - $Responsive
