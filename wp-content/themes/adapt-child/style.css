@@ -69,6 +69,14 @@ hr {
     border-top: 1px solid #d3d3d3;
     margin: 0;
     padding: 0; }
+	
+img {
+  max-width: 100%;
+  height: auto; }
+  
+iframe {
+  width: 100%;
+  height: auto;  }
 
 
 /* ========================================================== 
@@ -480,19 +488,29 @@ ul.filter.footer-filter a.active{
  * Miscellaneous 
  */
  
-.wp-caption{
+.wp-caption {
   border: none; 
   text-align: center; 
-  background-color: none; 
+  background-color: transparent; 
   padding-top: 4px; 
   margin: 10px; 
   -moz-border-radius: none; 
   -khtml-border-radius: none; 
   -webkit-border-radius: none; 
   border-radius: none; }
+  
+.wp-caption.aligncenter {
+  margin: 10px auto; }
  
+.wp-caption p.wp-caption-text{
+  font-size: .7em; 
+  line-height: 17px; 
+  padding: 0 4px 5px; 
+  margin: 0; }
+  
 img.aligncenter {
   margin: 20px auto; }
+
   
 /* ========================================================== 
    6.0 - $Responsive

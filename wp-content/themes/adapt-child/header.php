@@ -55,6 +55,16 @@ $options = get_option( 'adapt_theme_settings' );
 ================================================== -->
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.custom.min.js"></script>
 
+<!-- Fitvids Script to allow scalable videos 
+================================================== -->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/fitvids.js"></script>
+<script>
+  jQuery(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    jQuery('#wrap').fitVids();
+  });
+</script>
+
 <!-- jQuery Cookie plugin
 ================================================== -->
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.cookie.js"></script>
