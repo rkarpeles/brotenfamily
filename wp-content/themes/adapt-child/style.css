@@ -421,7 +421,6 @@ ul.filter.footer-filter a.active{
 	color: #fff;
 }
 
-
 /**
  * Page
  */ 
@@ -475,6 +474,14 @@ ul.filter.footer-filter a.active{
 #back-to-top {
   font-size: .8em;
   text-align: right; }
+  
+  
+/**
+ * Miscellaneous 
+ */
+ 
+img.aligncenter {
+  margin: 10px auto; }
   
 /* ========================================================== 
    6.0 - $Responsive
