@@ -11,8 +11,6 @@ $options = get_option( 'adapt_theme_settings' );
 
 <!-- Block search engines from indexing pages and following links -->
 <meta name="robots" content="noindex, nofollow" />
-<?php header("X-Robots-Tag: noindex, nofollow", true); ?>
-
 
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
