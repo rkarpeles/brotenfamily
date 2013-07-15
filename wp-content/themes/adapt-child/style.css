@@ -387,6 +387,16 @@ h2.heading span{
   border: 3px solid #d5d5d5; }
   
 /**
+* Comments
+*/
+
+.commentlist {
+  font-size: 1.4em; }
+  
+.comment-meta a {
+  font-size: .8em; }
+  
+/**
  * Bookshelf Page
  */
  
