@@ -1,11 +1,13 @@
 ### TASKS
 
+- change "username" in comments to "Name"
+
 - add modernizr library for logo (DONE)
 - create and code for PNG fallbacks on logo (NEED FOR SMALLER SIZES)
 
 - place categories in footer for Bookshelf
 - style individual bookshelf pages
-- style main Bookshelf page 
+- style main Bookshelf page  
 
 - add link/text in footer to point people to Subscribe page (DONE)
 - set up Subscribe functionality on Subscribe page - weekly updates and blog posts (need access to their Mailchimp account for this)
@@ -27,3 +29,8 @@ TESTING
 - browsers
 - speed 
 - devices
+
+==============================================================
+7/15/2013
+==============================================================
+

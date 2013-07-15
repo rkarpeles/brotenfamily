@@ -38,7 +38,7 @@
                 <?php if ( is_user_logged_in() ) : ?>
                     <p id="comments-respond-meta"><?php _e('Logged in as','adapt'); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e('Log out of this account','adapt'); ?>"><?php _e('Log out','adapt'); ?> &raquo;</a></p>
                 <?php else : ?>
-                    <input type="text" name="author" id="author" value="<?php if ($comment_author == '') { echo _e('Username', 'adapt' ); echo '*'; } elseif ($comment_author >= '') { echo $comment_author; } ?>" onfocus="if(this.value=='<?php _e('Username', 'adapt' ); ?>*')this.value='';" onblur="if(this.value=='')this.value='<?php _e('Username', 'adapt' ); ?>*';" size="22" tabindex="1" />
+                    <input type="text" name="author" id="author" value="<?php if ($comment_author == '') { echo _e('Name', 'adapt' ); echo '*'; } elseif ($comment_author >= '') { echo $comment_author; } ?>" onfocus="if(this.value=='<?php _e('Name', 'adapt' ); ?>*')this.value='';" onblur="if(this.value=='')this.value='<?php _e('Name', 'adapt' ); ?>*';" size="22" tabindex="1" />
                     <br />
                     <input type="text" name="email" id="email" value="<?php if ($comment_author_email == '') { echo _e('Email', 'adapt' ); echo '*'; } elseif ($comment_author_email >= '') { echo $comment_author_email; } ?>" onfocus="if(this.value=='<?php _e('Email', 'adapt' ); ?>*')this.value='';" onblur="if(this.value=='')this.value='<?php _e('Email', 'adapt' ); ?>*';" size="2" tabindex="2" />
                     <br />
