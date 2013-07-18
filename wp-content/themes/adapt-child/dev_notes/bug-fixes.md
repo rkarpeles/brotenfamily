@@ -5,3 +5,4 @@
 - functions file needs to be moved to the child theme
 - don't show post for bookshelf if no author is listed (right now if you fail to put an author in the 'excerpt' field, it will try to show the whole excerpt on the homepage)
 - figure out how to post Videos in an easy way
+- move all the new functions to a new functions.php file, and leave the old ones unedited in the original

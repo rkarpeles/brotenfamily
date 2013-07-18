@@ -15,7 +15,7 @@
 - place Embedded Analytics on homepage
 - place visitor count on the homapage (near Embedded Analytics)
 
-- Add Google Analytics tracking to their site
+- Add Google Analytics tracking to their site (DONE)
 
 - add search bar in header on homepage (?)
 
