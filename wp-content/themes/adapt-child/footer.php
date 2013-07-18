@@ -58,5 +58,6 @@ $options = get_option( 'adapt_theme_settings' );
 
 <!-- WP Footer -->
 <?php wp_footer(); ?>
+<?php include_once('includes/analyticstracking.php') ?>
 </body>
 </html>
