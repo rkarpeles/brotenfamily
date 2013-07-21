@@ -41,6 +41,7 @@ $options = get_option( 'adapt_theme_settings' );
 ================================================== -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 
+
 <!-- Load HTML5 dependancies for IE
 ================================================== -->
 <!--[if IE]>

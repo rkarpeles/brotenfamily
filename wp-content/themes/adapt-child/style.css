@@ -520,15 +520,3 @@ ul.filter.footer-filter a.active{
   
 img.aligncenter {
   margin: 20px auto; }
-
-  
-/* ========================================================== 
-   6.0 - $Responsive
-   ========================================================== */ 
-  
-/* Note: Design for a width of 740px */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	
-	#wrap{ 
-	  padding: 0 40px;
-	  width: 920px; }
