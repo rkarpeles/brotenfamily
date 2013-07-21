@@ -29,8 +29,9 @@ img{ max-width: 100%; }
 
 /* Apply To All Responsive Layouts
 ================================================== */
-@media only screen and (device-width: 768px) {
+@media only screen and (max-width: 1140px) {
 
+#wrap { width: 90%; }
 
 }
 
@@ -38,23 +39,29 @@ img{ max-width: 100%; }
 ================================================== */
 
 /* Note: Design for a width of 740px */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+@media only screen and (min-width: 720px) and (max-width: 959px) {
 	
 	#wrap{ width: 90%; }
 	/*.hp-highlight, .portfolio-item, .home-entry, #footer-one,#footer-two,#footer-three,#footer-four{ width: 155px;  } */
+	
 	#home-tagline{ font-size: 21px; }
 	#search { text-indent: -9999px; }
 	.loop-entry-thumbnail{width: 35%;}
 
 }
 
+
+
 /*  #Mobile (Portrait)
 ================================================== */
 
 /* Note: Design for a width of 290px */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 719px) {
 	
 	/*hide*/
+	.flexslider { display: none; }
 	.flexslider .caption{ display: none; }
 	
 	/*display dropdown nav*/
@@ -63,8 +70,8 @@ img{ max-width: 100%; }
 	#masternav ul { display: none; }
 	#masternav{ padding: 0; height: 40px; line-height: 40px; float: none; padding: 0 5px; margin: 0; background: #3fb7b7; color: #fff; top: 0; right: 0; cursor: pointer; }
 	
-	#wrap{ width: 230px; }
-	.hp-highlight, .portfolio-item, .home-entry, #footer-one,#footer-two,#footer-three,#footer-four{ width: 230px; margin-right: auto; margin-left: auto; }
+	#wrap{ width: 90%; }
+	.hp-highlight, .portfolio-item, .home-entry, #footer-one,#footer-two,#footer-three,#footer-four{ width: 100%; margin-right: auto; margin-left: auto; }
 	#portfolio-wrap{ margin-right:  0; }
 	
 	#home-tagline{ font-size: 16px; }
@@ -93,7 +100,7 @@ img{ max-width: 100%; }
 	
 	.children li{ margin: 0 !important; }
 	
-	#copyright,#back-to-top{ float: none; width: 100%; text-align: center; }
+	#copyright, #back-to-top{ float: none; width: 100%; text-align: left; }
 	
 	.one-half, .one-third, .two-third, .one-fourth, .three-fourth, .one-fifth, .one-sixth {width: 100%; float: none;} 
 }
@@ -103,10 +110,10 @@ img{ max-width: 100%; }
 ================================================== */
 
 /* Note: Design for a width of 420px */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 719px) {
 	
-	#wrap{ width: 420px; }
-	.hp-highlight, .portfolio-item, .home-entry, #footer-one, #footer-three{ width: 100%; margin-right: 20px; }
+	#wrap{ width: 94%; }
+	.hp-highlight, .portfolio-item, .home-entry, #footer-one, #footer-three{ width: 100%; }
 	#footer-two, #footer-four { width: 100%; margin-right: 0; }
 	
 	.responsive-clear{ clear: both; }

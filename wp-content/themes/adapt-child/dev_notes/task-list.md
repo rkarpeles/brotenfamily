@@ -1,5 +1,7 @@
 ### TASKS
 
+- tell Jacob about protecting their domain info
+
 - change "username" in comments to "Name"
 
 - add modernizr library for logo (DONE)
