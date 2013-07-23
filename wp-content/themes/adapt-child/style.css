@@ -460,8 +460,9 @@ ul.filter.footer-filter a.active{
 
 #single-nav-left,
 #single-nav-right {
-  float: left;
-  margin: 15px 0 0 10px; }
+  float: none;
+  margin: 12px 0 0 5px;
+  display: inline-block; }
 	
 /**
  * Footer
