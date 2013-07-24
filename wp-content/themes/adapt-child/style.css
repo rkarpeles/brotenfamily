@@ -92,7 +92,7 @@ iframe {
   filter: alpha(opacity=96); /* For IE8 and earlier */ }
    
 #main {
-  margin: 15px 0 25px; }
+  margin: 15px 0 20px; }
 
 
 /* ========================================================== 
@@ -186,9 +186,17 @@ h2.heading span{
 	
 #comments {
   font-size: 1.1em; }
+  
+#commentsbox {
+  margin-top: 20px; }
 
 #comments-respond {
   font-size: 1.35em; }
+  
+#commentform input#author,
+#commentform input#email,
+#commentform input#url {
+	width: 50%; }
 
 .sidebar-box {
   font-size: .9em; }
