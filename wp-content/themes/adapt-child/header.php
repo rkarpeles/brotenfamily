@@ -95,7 +95,7 @@ http://css-tricks.com/perfect-full-page-background-image/-->
             <!-- END logo -->
 			
 			<div class="verse">
-				Delight yourself in the LORD, and He<br> will give you the desires of your heart.<br>
+				Delight yourself in the LORD, and He<br class="hide-mobile"> will give you the desires of your heart.<br>
 				<span class="reference">Psalm 37:4</span>
 			</div>
             
