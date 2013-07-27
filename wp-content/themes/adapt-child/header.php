@@ -90,7 +90,9 @@ http://css-tricks.com/perfect-full-page-background-image/-->
     <header id="masterhead" class="clearfix">
 			
 			<a href="<?php bloginfo('url'); ?>">
-			<div id="logo"></div>
+			<div class="logo-wrap">
+				<div id="logo"></div>
+			</div>
 			</a>
             <!-- END logo -->
 			
