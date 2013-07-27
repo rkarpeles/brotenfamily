@@ -155,6 +155,24 @@ img{ max-width: 100%; }
 }
 
 
+/* #Mobile (Landscape)
+================================================== */
+
+/* Note: Design for a width of 420px */
+@media only screen and (min-width: 480px) and (max-width: 719px) {
+	
+	#wrap{ width: 94%; }
+	.hp-highlight, .portfolio-item, .home-entry, #footer-one, #footer-three{ width: 100%; }
+	#footer-two, #footer-four { width: 100%; margin-right: 0; }	
+	
+	.responsive-clear{ clear: both; }
+	
+	.loop-entry-thumbnail{width: 33%;}
+	
+	ul.filter{ margin-bottom: 0; }
+}
+
+
 @media only screen and (max-width: 719px) {
 	
 	/*hide*/
@@ -170,7 +188,7 @@ img{ max-width: 100%; }
 	.verse {
 	  font-size: .75em; }
 	
-	#wrap{ width: 90%; padding: 0 40px; }
+	#wrap{ width: 90%; margin: 25px auto; padding: 0 40px; }
 	.hp-highlight, .portfolio-item, .home-entry, #footer-one,#footer-two,#footer-three,#footer-four{ width: 100%; margin-right: auto; margin-left: auto; }
 	#portfolio-wrap{ margin-right:  0; }
 	
@@ -228,7 +246,7 @@ img{ max-width: 100%; }
 	.footer-widget { margin: 25px 0 5px; }
 	
 	ul.filter.footer-filter li{
-	  height: 10px;
+	  height: 10px; }
 	
 }
 
@@ -247,51 +265,33 @@ img{ max-width: 100%; }
 	  max-width: 100%; }
 	  
 	.verse {
-	  float: left;
+	  float: none;
 	  clear: both;
 	  width: 100%;
 	  margin-bottom: 20px;
-      text-align: center; }
-	  
+      text-align: center; }	  
 
 }
 
 @media only screen and (max-width: 520px) {
 
 	#wrap {
-	  padding: 0 30px; }
-	  
-	#footer {
-	  padding: 0 30px;
-	  margin: 0 -30px; }
+	  padding: 0 25px; }
+	             
+	#footer {    
+	  padding: 0 25px;
+	  margin: 0 -25px; }
 
 }
 
 @media only screen and (max-width: 400px) {
 
 	#wrap {
-	  padding: 0 25px; }
-	  
-	#footer {
-	  padding: 0 25px;
-	  margin: 0 -25px; }
+	  padding: 0 20px; }
+	              
+	#footer {     
+	  padding: 0 20px;
+	  margin: 0 -20px; }
 
 }
 
-
-/* #Mobile (Landscape)
-================================================== */
-
-/* Note: Design for a width of 420px */
-@media only screen and (min-width: 480px) and (max-width: 719px) {
-	
-	#wrap{ width: 94%; }
-	.hp-highlight, .portfolio-item, .home-entry, #footer-one, #footer-three{ width: 100%; }
-	#footer-two, #footer-four { width: 100%; margin-right: 0; }	
-	
-	.responsive-clear{ clear: both; }
-	
-	.loop-entry-thumbnail{width: 33%;}
-	
-	ul.filter{ margin-bottom: 0; }
-}
