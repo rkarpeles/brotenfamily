@@ -196,6 +196,8 @@ img{ max-width: 100%; }
 	
 	.view-posts {
 	  display: none; }
+	  
+	#home-posts { margin-bottom: 0; }
 	
 	.home-entry {
 	  margin-bottom: 35px; 
@@ -335,6 +337,16 @@ img{ max-width: 100%; }
 	  width: 100%;
 	  margin: 0 auto;
 	  padding: 0 15px; }
+	  
+	h2.heading {
+	  top: -38px; 
+	  font-size: 23px; }
+	  
+	.home-heading-bg {
+	  width: 230px; }
+	  
+	.home-heading-bg, .home-heading-bg-2 {
+	  height: 38px; }
 	 
 }
 
