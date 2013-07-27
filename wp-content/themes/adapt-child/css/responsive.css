@@ -194,6 +194,23 @@ img{ max-width: 100%; }
 	
 	#home-tagline{ font-size: 16px; }
 	
+	.view-posts {
+	  display: none; }
+	
+	.home-entry {
+	  margin-bottom: 35px; 
+      text-align: center; }
+	  
+	.home-entry img {
+	  width: 306px;
+	  max-width: 100%; }
+	  
+	.home-entry h3 {
+	  margin: 6px 0 0; }
+	  
+	.home-heading-bg, .home-heading-bg-2 {
+	  left: -58px; }
+	
 	.site-stats, .book-list {
 	  margin-right: 0;
 	  width: 100%; }
@@ -203,7 +220,7 @@ img{ max-width: 100%; }
 	  border-left: 0; }
 	  
 	#home-projects .portfolio-item {
-	  margin-bottom: 25px; }
+	  margin-bottom: 30px; }
 	  
 	#home-projects {
 	  margin-bottom: 5px; }
@@ -241,8 +258,10 @@ img{ max-width: 100%; }
 	#footer {
 	  padding: 0 40px;
       margin: 0 -40px; }
+	  
+	#footer-four { margin-top: 10px; }
 	
-	#footer-bottom { padding: 20px 0 25px; } 	
+	#footer-bottom { margin-top: 25px; padding: 20px 0 25px; } 	
 	.footer-widget { margin: 25px 0 5px; }
 	
 	ul.filter.footer-filter li{
@@ -269,7 +288,10 @@ img{ max-width: 100%; }
 	  clear: both;
 	  width: 100%;
 	  margin-bottom: 20px;
-      text-align: center; }	  
+      text-align: center; }	 
+
+	.home-heading-bg, .home-heading-bg-2 {
+	  left: -54px; }
 
 }
 
@@ -281,6 +303,12 @@ img{ max-width: 100%; }
 	#footer {    
 	  padding: 0 25px;
 	  margin: 0 -25px; }
+	  
+	.home-heading-bg {
+	  width: 280px; }
+	  
+	.home-heading-bg, .home-heading-bg-2 {
+	  left: -40px; }
 
 }
 
@@ -292,6 +320,21 @@ img{ max-width: 100%; }
 	#footer {     
 	  padding: 0 20px;
 	  margin: 0 -20px; }
+	  
+	.home-heading-bg {
+	  width: 250px; }
+	  
+	.home-heading-bg, .home-heading-bg-2 {
+	  left: -32px; }
 
+}
+
+@media only screen and (max-width: 300px) {
+
+	#wrap {
+	  width: 100%;
+	  margin: 0 auto;
+	  padding: 0 15px; }
+	 
 }
 
