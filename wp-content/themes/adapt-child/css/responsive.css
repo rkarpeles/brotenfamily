@@ -311,7 +311,15 @@ img{ max-width: 100%; }
 	  
 	.home-heading-bg, .home-heading-bg-2 {
 	  left: -40px; }
+	 
+}
 
+@media only screen and (max-width: 480px) {
+
+	.loop-entry-thumbnail { float: none; max-width: 100%; margin-right: 0; }
+	.loop-entry h2 { margin-top: 5px; }
+	.loop-entry-thumbnail img { width: 100%;  }
+	
 }
 
 @media only screen and (max-width: 400px) {
@@ -327,7 +335,7 @@ img{ max-width: 100%; }
 	  width: 250px; }
 	  
 	.home-heading-bg, .home-heading-bg-2 {
-	  left: -32px; }
+	  left: -32px; }	
 
 }
 
@@ -347,6 +355,8 @@ img{ max-width: 100%; }
 	  
 	.home-heading-bg, .home-heading-bg-2 {
 	  height: 38px; }
+	  
+	
 	 
 }
 

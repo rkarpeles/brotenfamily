@@ -5,7 +5,7 @@
 - change "username" in comments to "Name"
 
 - add modernizr library for logo (DONE)
-- create and code for PNG fallbacks on logo (NEED FOR SMALLER SIZES)
+- create and code for PNG fallbacks on logo (DONE)
 
 - place categories in footer for Bookshelf
 - style individual bookshelf pages
@@ -31,8 +31,3 @@ TESTING
 - browsers
 - speed 
 - devices
-
-==============================================================
-7/15/2013
-==============================================================
-
