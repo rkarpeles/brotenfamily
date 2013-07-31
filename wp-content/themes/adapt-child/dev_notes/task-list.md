@@ -1,23 +1,21 @@
 ### TASKS
 
-- tell Jacob about protecting their domain info
+- add Chrome Frame for IE7 peeps
+
+- remove black background in IE8 for slider text
+
+- figure out how to transfer videos from the old blog
 
 - change "username" in comments to "Name"
-
-- add modernizr library for logo (DONE)
-- create and code for PNG fallbacks on logo (DONE)
 
 - place categories in footer for Bookshelf
 - style individual bookshelf pages
 - style main Bookshelf page  
 
-- add link/text in footer to point people to Subscribe page (DONE)
 - set up Subscribe functionality on Subscribe page - weekly updates and blog posts (need access to their Mailchimp account for this)
 
 - place Embedded Analytics on homepage
 - place visitor count on the homapage (near Embedded Analytics)
-
-- Add Google Analytics tracking to their site (DONE)
 
 - add search bar in header on homepage (?)
 
@@ -31,3 +29,28 @@ TESTING
 - browsers
 - speed 
 - devices
+
+==========================================================
+DONE
+==========================================================
+
+- Add Google Analytics tracking to their site (DONE)
+- tell Jacob about protecting their domain info (DONE)
+- add modernizr library for logo (DONE)
+- create and code for PNG fallbacks on logo (DONE)
+- add link/text in footer to point people to Subscribe page (DONE)
+- figure out how to best embed youtube videos in posts (DONE)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
