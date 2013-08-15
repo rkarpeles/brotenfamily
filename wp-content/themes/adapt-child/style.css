@@ -449,10 +449,10 @@ ul.filter.footer-filter a.active{
 	color: #fff; }
 	
 .isotope-hidden {
-  margin-right:0;
+  margin-right: 0;
   height: 0;
   width: 0;
-  display: none; }
+  display: block; }
 
 /**
  * Page
