@@ -464,6 +464,28 @@ ul.filter.footer-filter a.active{
   
 .loop-entry img {
   border: 3px solid #d5d5d5; }
+  
+/**
+ * Inputs
+ */
+ 
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  margin-top: -2px; }
+	
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  color: #999;
+  padding: 7px;
+  border: 1px solid #ddd;
+  background: #fff; }
+	
+#mc_embed_signup input[type="text"],
+#mc_embed_signup input[type="email"] {
+  width: 50%; }
 
 /**
  * In-page blog navigation
