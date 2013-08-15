@@ -20,7 +20,7 @@
         <!-- Portfolio Filter -->
 		<div id="options">
 			<ul id="portfolio-cats filters" class="option-set filter clearfix" data-option-key="filter">
-				<li><a href="#filter=*"><span><?php _e('All', 'wpex'); ?></span></a></li>
+				<li><a href="#filter=*" class="selected"><span>All</span></a></li>
 				<?php
 				foreach ($cats as $cat ) : ?>
 				<li><a href="#filter=.<?php echo $cat->slug; ?>"><span><?php echo $cat->name; ?></span></a></li>

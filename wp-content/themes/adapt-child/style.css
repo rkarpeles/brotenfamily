@@ -423,13 +423,13 @@ ul.filter.footer-filter {
 	list-style: none;
 	color: #7f7f7f;
 	height: auto;
-	line-height: 1.275;
-}
+	line-height: 1.275; }
+	
 ul.filter.footer-filter li{
 	float: none;
 	height: 21px;
-	line-height: 1.275;
-}
+	line-height: 1.275; }
+	
 li.sort{ margin-right: 10px !important; }
 ul.filter.footer-filter a{
 	display: block;
@@ -438,17 +438,21 @@ ul.filter.footer-filter a{
 	margin-right: 0;
 	height: 25px;
 	line-height: 1.275;
-	padding: 0;
-}
+	padding: 0; }
+	
 ul.filter.footer-filter li:last-child a{
-	 margin: 0;
-}
+	 margin: 0; }
 
 ul.filter.footer-filter a:hover,
 ul.filter.footer-filter a.active{
 	background: none !important;
-	color: #fff;
-}
+	color: #fff; }
+	
+.isotope-hidden {
+  margin-right:0;
+  height: 0;
+  width: 0;
+  display: none; }
 
 /**
  * Page
