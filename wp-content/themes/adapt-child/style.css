@@ -219,6 +219,11 @@ h2.heading span{
 /* Fallback image for browsers without SVG support */
 .no-svg #logo {
   background: url('images/logo-large.png') no-repeat; }
+  
+.verse-wrap {
+  position: relative;
+  z-index: 1000;
+  float: right; }
 
 .verse {
   padding-top: 35px;
@@ -235,6 +240,16 @@ h2.heading span{
   font-weight: 400;
   font-style: italic; 
   font-size: .725em; }
+  
+.verse-image {
+  position: absolute;
+  float: left;
+  z-index: -100;
+  top: -1%;
+  left: 32.5%;
+  background: url('images/gray-heart-1.svg') no-repeat;
+  height: 124px;
+  width: 117px; }
 
 #home-tagline { 
 	display: none; }

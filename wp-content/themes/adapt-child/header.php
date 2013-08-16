@@ -95,10 +95,13 @@ http://css-tricks.com/perfect-full-page-background-image/-->
 			</a>
             <!-- END logo -->
 			
-			<div class="verse">
-				Delight yourself in the LORD, and He<br class="hide-mobile"> will give you the desires of your heart.<br>
-				<span class="reference">Psalm 37:4</span>
-			</div>
+			<div class="verse-wrap">			
+				<div class="verse">
+					Delight yourself in the LORD, and He<br class="hide-mobile"> will give you the desires of your heart.<br>
+					<span class="reference">Psalm 37:4</span>
+				</div>
+				<div class="verse-image"></div>	
+			</div>	
             
             <nav id="masternav" class="clear clearfix">
                 <?php wp_nav_menu( array(
