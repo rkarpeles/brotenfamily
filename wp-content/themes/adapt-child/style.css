@@ -304,6 +304,7 @@ h2.heading span{
 
 .full-slides .caption {
   background: rgba(134, 33, 33, .9);
+  background: rgb(134, 33, 33);
   width: 55%;
   bottom: 8%;
   left: 4%;

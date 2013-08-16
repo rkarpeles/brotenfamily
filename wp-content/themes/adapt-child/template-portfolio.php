@@ -70,9 +70,9 @@
 
 </div><!-- /post full-width -->
 
-<script src="http://www.veloce.co.uk/digital/resources/code/jquery-1.8.3.min.js"></script>
-<script src="http://www.veloce.co.uk/digital/resources/code/jquery.isotope.min.js"></script>
-<script src="http://www.kevin-atkins.co.uk/isotope/jquery.ba-bbq.min.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.1.7.2.min.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.ba-bbq.min.js"></script>
   <script>
     $(function(){
   

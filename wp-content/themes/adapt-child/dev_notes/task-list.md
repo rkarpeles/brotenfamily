@@ -2,8 +2,6 @@
 
 - add Chrome Frame for IE7 peeps
 
-- remove black background in IE8 for slider text
-
 - figure out how to transfer videos from the old blog
 
 - change "username" in comments to "Name"
@@ -19,7 +17,7 @@
 
 - add search bar in header on homepage (?)
 
-- change image width when uploaded
+- change image width when uploaded 
 
 - Responsive design styles
 	- menu
@@ -42,6 +40,7 @@ DONE
 - create and code for PNG fallbacks on logo (DONE)
 - add link/text in footer to point people to Subscribe page (DONE)
 - figure out how to best embed youtube videos in posts (DONE)
+- remove black background in IE8 for slider text (DONE)
 
 
 
