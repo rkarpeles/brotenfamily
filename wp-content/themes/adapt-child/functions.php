@@ -48,23 +48,3 @@ function new_adapt_scripts_function() {
 	
 }
 
-/*-----------------------------------------------------------------------------------*/
-/*	Images
-/*-----------------------------------------------------------------------------------*/
-
-if (function_exists( 'add_theme_support')) {
-	add_theme_support( 'post-thumbnails');
-	
-	if ( function_exists('add_image_size')) {
-		add_image_size( 'full-size',  9999, 9999, false );
-		add_image_size( 'slider',  980, 9999, false );
-		add_image_size( 'portfolio-single',  550, 9999, false );
-		add_image_size( 'small-thumb',  50, 50, true );
-		add_image_size( 'grid-thumb',  230, 144, true );
-		add_image_size( 'home-feature',  300, 144, true );
-		add_image_size( 'blog-feature',  280, 160, true );
-		add_image_size( 'bookshelf',  65, 90, true );
-	}
-}
-
-
