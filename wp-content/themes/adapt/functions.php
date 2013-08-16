@@ -25,21 +25,24 @@ require('functions/meta/meta-box-usage.php');
 /*-----------------------------------------------------------------------------------*/
 /*	Images
 /*-----------------------------------------------------------------------------------*/
-if (function_exists( 'add_theme_support')) {
-	add_theme_support( 'post-thumbnails');
-	
-	if ( function_exists('add_image_size')) {
-		add_image_size( 'full-size',  9999, 9999, false );
-		add_image_size( 'slider',  980, 9999, false );
-		add_image_size( 'portfolio-single',  550, 9999, false );
-		add_image_size( 'small-thumb',  50, 50, true );
-		add_image_size( 'grid-thumb',  230, 144, true );
-		add_image_size( 'home-feature',  300, 144, true );
-		add_image_size( 'blog-feature',  280, 160, true );
-		add_image_size( 'bookshelf',  65, 90, true );
-	}
-}
+add_action( 'after_setup_theme', 'child_theme_setup', 11 );
 
+if ( ! function_exists( 'child_theme_setup' ) ):
+	function child_theme_setup() {
+
+		if ( function_exists( 'add_theme_support' ) ) {
+			add_theme_support( 'post-thumbnails' );
+			add_image_size( 'full-size',  9999, 9999, false );
+		    add_image_size( 'slider',  980, 9999, false );
+		    add_image_size( 'portfolio-single',  550, 9999, false );
+		    add_image_size( 'small-thumb',  50, 50, true );
+		    add_image_size( 'grid-thumb',  230, 144, true );
+		    add_image_size( 'home-feature',  300, 144, true );
+		    add_image_size( 'blog-feature',  280, 160, true );
+		    add_image_size( 'bookshelf',  65, 90, true );
+		}
+	}
+endif;
 
 /*-----------------------------------------------------------------------------------*/
 /*	Javascsript

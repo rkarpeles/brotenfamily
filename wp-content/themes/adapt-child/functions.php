@@ -22,7 +22,7 @@ add_action('wp_enqueue_scripts', 'new_adapt_enqueue_css');
 function new_adapt_enqueue_css() {
 
     //main
-	wp_enqueue_style('new_responsive', get_stylesheet_directory_uri() . '/style.css', 'style');
+	wp_enqueue_style('style', get_stylesheet_directory_uri() . '/style.css', 'style');
 	
 	//responsive
 	wp_enqueue_style('new_responsive', get_stylesheet_directory_uri() . '/css/responsive.css', 'style');
