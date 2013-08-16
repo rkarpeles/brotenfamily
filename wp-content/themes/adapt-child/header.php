@@ -37,11 +37,6 @@ $options = get_option( 'adapt_theme_settings' );
 <link rel="icon" type="image/png" href="<?php echo $options['favicon']; ?>" />
 <?php } ?>
 
-<!-- Main CSS
-================================================== -->
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
-
-
 <!-- Load HTML5 dependancies for IE
 ================================================== -->
 <!--[if IE]>
@@ -52,23 +47,14 @@ $options = get_option( 'adapt_theme_settings' );
 	<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/>
 <![endif]-->
 
-<!-- Modernizr for PNG fallback on browsers that don't support SVG 
-================================================== -->
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.custom.min.js"></script>
-
 <!-- Fitvids Script to allow scalable videos 
 ================================================== -->
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/fitvids.js"></script>
 <script>
   jQuery(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
     jQuery('#wrap').fitVids();
   });
 </script>
-
-<!-- jQuery Cookie plugin
-================================================== -->
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.cookie.js"></script>
 
 <!-- WP Head
 ================================================== -->

@@ -19,6 +19,8 @@
 
 - add search bar in header on homepage (?)
 
+- change image width when uploaded
+
 - Responsive design styles
 	- menu
 	- container

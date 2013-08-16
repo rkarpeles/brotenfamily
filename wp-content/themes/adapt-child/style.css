@@ -250,6 +250,9 @@ h2.heading span{
   background: url('images/gray-heart-1.svg') no-repeat;
   height: 124px;
   width: 117px; }
+  
+.no-svg .verse-image {
+  background: url('images/gray-heart-1.png') no-repeat; }
 
 #home-tagline { 
 	display: none; }
