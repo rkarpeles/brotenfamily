@@ -43,10 +43,10 @@
                         //start loop
                         foreach ($attachments as $attachment) :
                         
-                        //get images
+                        //get images						
                         $full_img = wp_get_attachment_image_src( $attachment->ID, 'full-size');
-                        $portfolio_single = wp_get_attachment_image_src( $attachment->ID, 'portfolio-single'); ?>
-                            <li><a href="<?php echo $full_img[0]; ?>" title="<?php echo apply_filters('the_title', $attachment->post_title); ?>" <?php if($attachments_count =='1') { echo 'class="prettyphoto-link"'; } else { echo 'rel="prettyPhoto[gallery]"'; } ?>><img src="<?php echo $portfolio_single[0]; ?>" alt="<?php echo apply_filters('the_title', $attachment->post_title); ?>" /></a></li>
+                        $portfolio_single = wp_get_attachment_image_src( $attachment->ID, 'new-portfolio-single'); ?>
+                            <li class="single-portfolio-wrap"><a href="<?php echo $full_img[0]; ?>" title="<?php echo apply_filters('the_title', $attachment->post_title); ?>" <?php if($attachments_count =='1') { echo 'class="prettyphoto-link"'; } else { echo 'rel="prettyPhoto[gallery]"'; } ?>><img src="<?php echo $portfolio_single[0]; ?>" alt="<?php echo apply_filters('the_title', $attachment->post_title); ?>" /></a></li>
                         <?php endforeach; ?>
                     </ul>
                 </div>

@@ -356,7 +356,8 @@ img{ max-width: 100%; }
 	.home-heading-bg, .home-heading-bg-2 {
 	  height: 38px; }
 	  
-	
-	 
+	.portfolio-item a img {
+	  max-width: 100%; }
+		 
 }
 

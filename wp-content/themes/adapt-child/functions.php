@@ -48,3 +48,11 @@ function new_adapt_scripts_function() {
 	
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*	Images
+/*-----------------------------------------------------------------------------------*/
+			
+		    add_image_size( 'new-portfolio-single', 230, 340, true );
+		    add_image_size( 'bookshelf-grid-thumb', 9999, 9999, false );
+
+

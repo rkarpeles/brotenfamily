@@ -466,12 +466,33 @@ ul.filter.footer-filter a:hover,
 ul.filter.footer-filter a.active{
 	background: none !important;
 	color: #fff; }
+
+.portfolio-item a img {
+  width: 230px;
+  height: 340px; }
 	
 .isotope-hidden {
   margin-right: 0;
   height: 0;
   width: 0;
   display: none; }
+  
+/**
+ * Single Portfolio Page
+ */ 
+ 
+#single-portfolio-left {
+  width: 30%; }
+ 
+#single-portfolio-right {
+  width: 65%; }
+  
+#single-portfolio-left .slides {
+  margin-left: 15%; /* Half of #single-portfolio-left width */ }
+  
+.single-portfolio-wrap img {
+  width: 230px;
+  height: auto; }
 
 /**
  * Page
@@ -578,8 +599,7 @@ textarea:focus {
   
 #back-to-top {
   font-size: .8em;
-  text-align: right; }
-  
+  text-align: right; }  
   
 /**
  * Miscellaneous 

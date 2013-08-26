@@ -49,7 +49,7 @@
 			$count++;
 			
             //get portfolio thumbnail
-            $thumbail = wp_get_attachment_image_src(get_post_thumbnail_id(), 'grid-thumb');
+            $thumbail = wp_get_attachment_image_src(get_post_thumbnail_id(), 'bookshelf-grid-thumb');
 			
             //get terms
             $terms = get_the_terms( get_the_ID(), 'portfolio_cats' );
