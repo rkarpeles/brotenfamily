@@ -19,7 +19,7 @@
 		<!-- Begin MailChimp Signup Form -->
 		<div id="mc_embed_signup">
 		<form action="http://blogspot.us4.list-manage1.com/subscribe/post?u=decb31bb06d4c512a2c27ade3&amp;id=0113afb6bc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>	
-		<p><strong>Sign up to receive our blog posts to your inbox:</strong></p>
+		<p><strong>Fill out the form below and click "Subscribe":</strong></p>
 		<div class="mc-field-group">
 			<label for="mce-EMAIL">Email Address <em>(required)</em></label><br>
 			<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
@@ -37,7 +37,7 @@
 			<div class="response" id="mce-success-response" style="display:none"></div>
 		</div>	
 		<div class="clear">
-			<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+			<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
 		</div>
 		</form>
 		</div>			
