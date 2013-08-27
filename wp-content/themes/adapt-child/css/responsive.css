@@ -221,6 +221,10 @@ img{ max-width: 100%; }
 	  padding-left: 0;
 	  border-left: 0; }
 	  
+	.view-books {
+	  float: left;
+	  top: -10px; }
+	  
 	#home-projects .portfolio-item {
 	  margin-bottom: 30px; }
 	  

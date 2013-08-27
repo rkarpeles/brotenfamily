@@ -6,18 +6,12 @@
 
 - change "username" in comments to "Name"
 
-- place categories in footer for Bookshelf
-- style individual bookshelf pages
-- style main Bookshelf page  
-
 - set up Subscribe functionality on Subscribe page - weekly updates and blog posts (need access to their Mailchimp account for this)
 
 - place Embedded Analytics on homepage
 - place visitor count on the homapage (near Embedded Analytics)
 
 - add search bar in header on homepage (?)
-
-- change image width when uploaded 
 
 - Responsive design styles
 	- menu
@@ -30,6 +24,12 @@ TESTING
 - speed 
 - devices
 
+- author byline wrapping around 780px on homepage
+
+POSSIBLE:
+
+- add author the_excerpt to single portfolio pages
+
 ==========================================================
 DONE
 ==========================================================
@@ -41,6 +41,10 @@ DONE
 - add link/text in footer to point people to Subscribe page (DONE)
 - figure out how to best embed youtube videos in posts (DONE)
 - remove black background in IE8 for slider text (DONE)
+- place categories in footer for Bookshelf (DONE)
+- style individual bookshelf pages (DONE)
+- style main Bookshelf page  (DONE)
+- fix book size and text on homepage (for bookshelf) (DONE)
 
 
 

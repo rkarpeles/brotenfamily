@@ -255,11 +255,11 @@ h2.heading span{
   background: url('images/gray-heart-1.png') no-repeat; }
 
 #home-tagline { 
-	display: none; }
+  display: none; }
 
 #masterhead { 
-	padding: 35px 0 0;
-	border-bottom: none; }
+  padding: 35px 0 0;
+  border-bottom: none; }
 
 /**
  * Menu
@@ -289,6 +289,7 @@ h2.heading span{
   font-weight: 700;
   font-size: .975em;
   color: #903131; }
+
   
 /**
  * Slider
@@ -341,9 +342,17 @@ h2.heading span{
   font-weight: 700; 
   font-size: .9em; }
   
-.view-posts a {
+.view-posts a, .view-books a {
   cursor: pointer;
   color: #962020; }
+  
+.view-books {
+  float: right; 
+  position: relative;
+  z-index: 20;
+  top: -20px;
+  font-weight: 700; 
+  font-size: .9em; }
   
 .site-stats {
   float: left;
@@ -389,6 +398,7 @@ h2.heading span{
   color: #999; }
   
 .book-title {
+  overflow: hidden;
   font-size: .9em;
   line-height: 1.1;
   font-weight: 700;
@@ -397,6 +407,7 @@ h2.heading span{
   margin-bottom: 0; }
 
 .book-author {
+  overflow: hidden;
   display: inline-block;
   font-size: .8em;
   color: #777;  }
@@ -467,7 +478,7 @@ ul.filter.footer-filter a.active{
 	background: none !important;
 	color: #fff; }
 
-.portfolio-item a img {
+#portfolio-wrap .portfolio-item a img {
   width: 230px;
   height: 340px; }
 	
