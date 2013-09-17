@@ -1,5 +1,6 @@
 ### BUGS TO FIX
 
+- Papa and All links to portfolio don't show all the books, often when coming from other pages on the site
 - "portfolio" slug in URL needs to change to "bookshelf"
 - change "Excerpt" text in admin to "Author" for Book posts 
 - don't show post for bookshelf if no author is listed (right now if you fail to put an author in the 'excerpt' field, it will try to show the whole excerpt on the homepage)
