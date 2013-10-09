@@ -1,8 +1,8 @@
-### TASKS
+ ### TASKS
+ 
+ - Un-alphabetize the list of portfolio links. Put them in family order
 
 - add Chrome Frame for IE7 peeps
-
-- figure out how to transfer videos from the old blog
 
 - change "username" in comments to "Name"
 
@@ -45,6 +45,7 @@ DONE
 - style individual bookshelf pages (DONE)
 - style main Bookshelf page  (DONE)
 - fix book size and text on homepage (for bookshelf) (DONE)
+- figure out how to transfer videos from the old blog (DONE - manually)
 
 
 

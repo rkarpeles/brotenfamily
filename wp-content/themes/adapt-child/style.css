@@ -288,7 +288,7 @@ h2.heading span{
   text-transform: none;
   font-weight: 700;
   font-size: .975em;
-  color: #903131; }
+  color: #A64B05; }
   
 /**
  * Slider
@@ -303,8 +303,8 @@ h2.heading span{
 		    box-shadow: none; }
 
 .full-slides .caption {
-  background: rgba(134, 33, 33, .9);
-  background: rgb(134, 33, 33);
+  background: rgba(166, 75, 5, .9);
+  background: rgb(166, 75, 5);
   width: 55%;
   bottom: 8%;
   left: 4%;

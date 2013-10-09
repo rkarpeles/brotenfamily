@@ -1,5 +1,6 @@
 ### BUGS TO FIX
 
+- Un-alphabetize the list of portfolio links. Put them in family order
 - Papa and All links to portfolio don't show all the books, often when coming from other pages on the site
 - "portfolio" slug in URL needs to change to "bookshelf"
 - change "Excerpt" text in admin to "Author" for Book posts 
